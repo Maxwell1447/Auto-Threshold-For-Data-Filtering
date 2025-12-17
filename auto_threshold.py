@@ -47,7 +47,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--input_scores", type=str, required=True, help="Path to input scores numpy file")
     parser.add_argument("--n", type=int, default=5000, help="Number of samples to use for threshold estimation")
-    parser.add_argument("--t", type=float, default=0.7, help="Threshold on the probability f_plus / (f_plus + f_minus)")
+    parser.add_argument("--t", type=float, default=0.5, help="Threshold on the probability f_plus / (f_plus + f_minus)")
     parser.add_argument("--a", type=float, default=0.4, help="Bad scores cutoff for the g function")
     parser.add_argument("--b", type=float, default=0.85, help="Good scores cutoff for the g function")
     parser.add_argument("--p", type=float, default=1.0, help="Parameter p for the g function")
