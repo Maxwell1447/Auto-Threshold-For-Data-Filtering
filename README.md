@@ -46,9 +46,7 @@ The goal is precisely to identify these two sub-distributions.
 
 A first hypothesis is to decompose $\mathcal D$ into a gaussian mixture of $\mathcal D_i$:
 
-$
-    p(x) = \sum_i w_i p_i(x) = \sum_i w_i \frac{1}{\sigma \sqrt 2} \exp(-\frac{1}{2}(\frac{x-\mu_i}{\sigma_i})^2).
-$
+$p(x) = \sum_i w_i p_i(x) = \sum_i w_i \frac{1}{\sigma \sqrt 2} \exp(-\frac{1}{2}(\frac{x-\mu_i}{\sigma_i})^2).$
 
 We note:
 * $p(+)$ the probability of observing a sample that originates from $\mathcal D^+$
